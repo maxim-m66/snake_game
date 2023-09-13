@@ -1,0 +1,98 @@
+body {
+    color: lightblue;
+    background-image: url("zmijica-dodatno/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    align-self: center;
+}
+
+.imgfood {
+    width: 26px;
+    height: 26px;
+}
+
+.imgsuperfood {
+    width: 25px;
+    height: 25px;
+}
+
+.imghelmet {
+    width: 24px;
+    height: 24px;
+}
+
+td {
+    border: solid black;
+    width: 30px;
+    max-width: 30px;
+    height: 30px;
+    border-width: 0px;
+    align-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+table {
+    border-collapse: collapse;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+
+.results {
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.snake {
+    background-color: yellowgreen;
+    border: solid black;
+    border-width: 2px;
+}
+
+.snakeHead {
+    background-color: chartreuse;
+    border: solid black;
+    border-width: 2px;
+}
+
+.top-border {
+    border-top-width: 2px;
+}
+
+.bottom-border {
+    border-bottom-width: 2px;
+}
+
+.left-border {
+    border-left-width: 2px;
+}
+
+.right-border {
+    border-right-width: 2px;
+}
+
+.top-free {
+    border-top-width: 0px;
+}
+
+.bottom-free {
+    border-bottom-width: 0px;
+}
+
+.left-free {
+    border-left-width: 0px;
+}
+
+.right-free {
+    border-right-width: 0px;
+}

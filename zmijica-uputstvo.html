@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="zmijica-dodatno/jQuery/jquery-3.7.0.js"></script>
+    <script src="zmijica-uputstvo.js"></script>
+    <link rel="stylesheet" href="zmijica-dodatno/css/bootstrap.min.css">
+    <link rel="stylesheet" href="zmijica-uputstvo.css">
+    <title>Document</title>
+</head>
+<body class = "bg-dark">
+    <div class="container-float">
+        <div class="row col-12" style="padding: 0px;">
+            <div class="col-1">
+                <button class="btn-secondary" id = "leaderboard">LEADERBOARD</button>
+            </div>
+        </div>
+        <div class="row col-12" style="padding: 30px;">
+            <div class="col-1"></div>
+            <div class="col-10"><h1 align = "center">Welcome to the Snake!</h1></div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row col-12" style="padding: 0px;">
+            <div class="col-4"></div>
+            <div class="col-4"><h5 align = "center">Select the size of your grid:</h5></div>
+            <div class="col-4"><table id = "table"></table></div>
+        </div>
+        <div class="row col-12" style="padding-top : 0px; margin-top: 0px;">
+            <div class="col-5"></div>
+            <div class="col-2"><p align = "center"><input class = "form-range" type="range" name="" id="range" min="10" max = "20" ></p></div>
+            <div class="col-5"></div>
+        </div>
+        <div class="row col-12">
+            <div class="col-5"></div>
+            <div class="col-2"><p align = "center" id = "rangeShow"></p></div>
+            <div class="col-5"></div>
+        </div>
+        </div>
+        <div class="row col-12 padding">
+            <div class="col-4"></div>
+            <div class="col-1"><h6 align="center">Difficulty:</h6></div>
+            <div class="col-1"><h6 align="center"><input type="radio" class="r" name="diff" id="e">&nbsp;Easy</h6></div>
+            <div class="col-1"><h6 align="center"><input type="radio" class="r" name="diff" id="m">&nbsp;Medium</h6></div>
+            <div class="col-1"><h6 align="center"><input type="radio" class="r" name="diff" id="h">&nbsp;Hard</h6></div>
+            <div class="col-5"></div>
+        </div>
+        <div class="row col-12 padding">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h5 style="text-align: center;">Snake moves on his own. You can change his dirrection by pressing arrow keys. The game starts when you press an arrow key. Each time Snake eats food he grows by one square. Regular food is worth 1 point and super food is worth 10. The game ends when Snake hits either the wall or himself.</h5></div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row col-12">
+            <div class="col-5"></div>
+            <div class="col-2"><p align = "center"><button class="btn btn-primary" id = "play">PLAY</button></p></div>
+            <div class="col-5"></div>
+        </div>
+        <div class="row col-12">
+            <div class="col-5"></div>
+            <div class="col-2"><p align = "center">Your Name:</p></div>
+            <div class="col-5"></div>
+        </div>
+        <div class="row col-12">
+            <div class="col-5"></div>
+            <div class="col-2"><p align = "center"><input type="text" name="" id="name"></p></div>
+            <div class="col-5"></div>
+        </div>
+    </div>
+</body>
+</html>

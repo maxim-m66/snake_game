@@ -1,0 +1,55 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue;
+    font-weight: bolder;
+    background-image: url("zmijica-dodatno/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+td {
+    border: solid whitesmoke;
+    width: 5px;
+    height: 5px;
+    border-width: 0px;
+    align-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.opaque {
+    opacity: 0;
+}
+
+.snake {
+    background-color: chartreuse;
+    border: solid black;
+    border-width: 0px;
+}
+
+.top-border {
+    border-top-width: 1px;
+}
+
+.bottom-border {
+    border-bottom-width: 1px;
+}
+
+.left-border {
+    border-left-width: 1px;
+}
+
+.right-border {
+    border-right-width: 1px;
+}

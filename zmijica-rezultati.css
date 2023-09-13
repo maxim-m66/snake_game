@@ -1,0 +1,32 @@
+td {
+    font-size: larger;
+    width: 250px;
+    height: 40px;
+    border: solid lightslategray;
+    border-width: 3px;
+    text-align: center;
+}
+
+.thin {
+    width: 40px;
+}
+
+body {
+    color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-image: url("zmijica-dodatno/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    border: solid lightslategray;
+    border-collapse: collapse;
+}
+
+.borderless {
+    width: 150px;
+    font-size: larger;
+    border-width: 0px;
+}
